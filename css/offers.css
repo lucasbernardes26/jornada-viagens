@@ -8,6 +8,7 @@
   height: 288px;
   border-radius: 16px;
   text-align: center;
+  margin: 0 auto 24px;
 }
 
 .card header {
@@ -37,10 +38,10 @@
     width: 588px;
     height: 308px;
   }
-  .card header h3{
+  .card header h3 {
     font-size: 48px;
   }
-  .card header span{
+  .card header span {
     font-size: 40px;
   }
 }
