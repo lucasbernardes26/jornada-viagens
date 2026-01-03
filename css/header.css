@@ -4,6 +4,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
 .logo {
   display: inline-block;
@@ -12,7 +13,25 @@ header {
 }
 nav {
   display: none;
-  text-align: right;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+}
+.list-link {
+  list-style: none;
+}
+.list-link li {
+  color: var(--text-secondary-color);
+}
+li {
+  margin: 16px 0;
+  text-align: center;
+}
+.list-link a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
 }
 .navigation-menu {
   margin-top: 24px;
