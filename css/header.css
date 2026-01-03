@@ -9,11 +9,14 @@ header {
   display: inline-block;
   width: 68px;
   height: 64px;
-
 }
-nav{
-    display: none;
+nav {
+  display: none;
+  text-align: right;
 }
-.navigation-menu{
-    margin-top: 24px;
+.navigation-menu {
+  margin-top: 24px;
+}
+input[type="checkbox"]:checked ~ nav {
+  display: block;
 }
