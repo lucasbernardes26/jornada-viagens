@@ -1,4 +1,4 @@
-header {
+.main-header{
   background-color: var(--background-tertiary-color);
   display: flex;
   justify-content: space-between;
@@ -66,7 +66,7 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header header {
     padding: 38px 120px;
   }
   .img-mobile {
@@ -81,7 +81,7 @@ input[type="checkbox"]:checked ~ nav {
   }
 }
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }
