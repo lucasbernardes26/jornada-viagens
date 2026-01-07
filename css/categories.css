@@ -37,10 +37,10 @@
 @media screen and (min-width: 1024px) {
   .categories-cards {
     width: 221px;
-    height: 190px;
+    height: 200px;
   }
   .categories-cards a{
-    padding: 25px 0;
+    padding: 20px 0;
   }
 }
 @media screen and (min-width: 1440px) {
