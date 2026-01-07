@@ -1,57 +1,54 @@
-.payments{
-    margin:0 32px 88px;
-   
+.payments {
+  margin: 0 32px 88px;
 }
-.payments .content-container{
-    display: flex;
-    flex-direction: column;
+.payments .content-container {
+  display: flex;
+  flex-direction: column;
 }
-.payments .image-gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3,1fr);
-    gap: 24px;
-    height: 460px;
-    margin-top: 24px;
-    width: 100%;
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
 }
-.payments .image-gallery .first{
-    background: url(../img/img-gallery1.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+.payments .image-gallery .first {
+  background: url(../img/img-gallery1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.payments .image-gallery .second{
-    background: url(../img/img-gallery2.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+.payments .image-gallery .second {
+  background: url(../img/img-gallery2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.payments .image-gallery .thirty{
-    background: url(../img/img-gallery3.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+.payments .image-gallery .thirty {
+  background: url(../img/img-gallery3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.payments .image-gallery .colspan2{
-    grid-column: span 2;
+.payments .image-gallery .colspan2 {
+  grid-column: span 2;
 }
-.payments .image-gallery .rowspan2{
-    grid-row: span 2;
+.payments .image-gallery .rowspan2 {
+  grid-row: span 2;
 }
 
-@media  screen and (min-width:1440px) {
-    .payments .text-content{
-       width: 360px;
-    }
-    .payments .content-container{
+@media screen and (min-width: 1440px) {
+  .payments .text-content {
+    width: 360px;
+  }
+  .payments .content-container {
     display: flex;
     flex-direction: row;
-    align-items:self-start;
+    align-items: self-start;
     justify-content: center;
     gap: 32px;
-}
-.payments .image-gallery{
+  }
+  .payments .image-gallery {
     width: 790px;
     margin-top: 0;
+  }
 }
-}
-
-

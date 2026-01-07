@@ -1,4 +1,3 @@
-
 .container-cards {
   display: flex;
   flex-direction: column;
@@ -39,7 +38,7 @@
     width: 221px;
     height: 200px;
   }
-  .categories-cards a{
+  .categories-cards a {
     padding: 20px 0;
   }
 }
