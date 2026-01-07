@@ -30,6 +30,13 @@ body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
+section{
+  margin: 0 auto 88px;
+}
+.section-title{
+  width: 290px;
+  margin: 0 auto 32px;
+}
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -46,7 +53,7 @@ body {
 
 .button {
   display: inline-block;
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
   font-weight: var(--title-weight);
@@ -59,8 +66,8 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .section-title h2 {
-    font-size: 32px;
+  .section-title{
+    width: 100%;
   }
 }
 
