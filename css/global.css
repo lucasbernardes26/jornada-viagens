@@ -30,10 +30,10 @@ body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
-section{
+section {
   margin: 0 auto 88px;
 }
-.section-title{
+.section-title {
   width: 290px;
   margin: 0 auto 32px;
 }
@@ -50,7 +50,15 @@ section{
   border: none;
   margin: 16px auto 32px;
 }
-
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
 .button {
   display: inline-block;
   min-width: 280px;
@@ -66,7 +74,7 @@ section{
 }
 
 @media screen and (min-width: 768px) {
-  .section-title{
+  .section-title {
     width: 100%;
   }
 }
@@ -74,9 +82,6 @@ section{
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--primary-color);
-  }
-  .categories {
-    margin: 0 auto;
   }
   .container-cards {
     flex-direction: row;

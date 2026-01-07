@@ -18,6 +18,7 @@
 }
 
 .card header {
+  color: var(--text-secondary-color);
   margin-bottom: 24px;
 }
 .card header p {
