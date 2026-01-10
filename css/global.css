@@ -72,7 +72,9 @@ section {
   text-align: center;
   line-height: 64px;
 }
-
+.footer{
+  margin: 0;
+}
 @media screen and (min-width: 768px) {
   .section-title {
     width: 100%;

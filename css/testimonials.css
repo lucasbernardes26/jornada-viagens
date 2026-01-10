@@ -29,8 +29,20 @@
     color: var(--secondary-color);
     line-height: 32px;
 }
+@media screen and (min-width:768px) {
+    .testimonial-container{
+        width: 648px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .testimonial-container{
+        width: 900px;
+        flex-direction: row;
+    }
+}
 @media screen and (min-width:1440px) {
     .testimonial-container{
+        width: 1200px;
         flex-direction: row;
     }
 }

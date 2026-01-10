@@ -12,6 +12,13 @@
   text-align: center;
   line-height: 1.5;
 }
+.hero-img-footer{
+  width: 100%;
+  height: 400px;
+  background: url(../img/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
